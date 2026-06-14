@@ -1,0 +1,30 @@
+{
+  "name": "pixel-prime",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "PIXEL PRIME - a polished browser-based side-scrolling action exploration game",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\" \"docs/**/*.md\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,json,css,md}\" \"docs/**/*.md\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.61.0",
+    "@typescript-eslint/parser": "^8.61.0",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.4",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vite-plugin-checker": "^0.14.1"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
